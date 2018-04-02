@@ -1,0 +1,28 @@
+#main-body{
+    text-align: centers
+}
+
+table{
+    margin: 0 auto;
+}
+
+th{
+    text-align: center;
+    text-transform: full-width;
+    color: red;
+    border-bottom: 1px solid gray;
+}
+
+td a{
+    cursor: pointer
+}
+
+td:hover{
+    background: #6483ff;
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+    background: #ececec;
+}

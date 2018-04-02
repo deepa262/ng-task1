@@ -1,0 +1,10 @@
+<div  ng-controller="photosCtrl"> 
+
+<table>
+  <tr ng-repeat="x in photoData" >
+    <td> {{ x.id}}</td>
+      <td><img ng-src="{{x.url}}"></td>
+  </tr>
+</table>
+
+</div>

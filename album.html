@@ -1,0 +1,14 @@
+<div ng-controller="albumCtrl">
+  <div>
+    <h3>Album</h3>
+  </div>
+  <table>
+    <tr ng-repeat="x in albumData">
+
+      <td><a ng-click="photos(x.userId)">{{ x.title }}</a></td>
+
+    </tr>
+  </table>
+  
+
+</div>
